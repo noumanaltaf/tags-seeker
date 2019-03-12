@@ -21,7 +21,15 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/ramda": "^0.26.1",
+    "@types/react-virtualized": "^9.18.12",
+    "antd": "^3.15.0",
+    "classnames": "^2.2.6",
+    "ramda": "^0.26.1",
+    "react-virtualized": "^9.21.0"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",

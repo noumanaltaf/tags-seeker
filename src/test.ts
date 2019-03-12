@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import TagsSeeker from './';
 
-describe('ExampleComponent', () => {
+describe('TagsSeeker', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+    expect(TagsSeeker).toBeTruthy();
+  });
+});

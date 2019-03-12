@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import TagsSeeker from './TagsSeeker';
+import App from './App';
 
-ReactDOM.render(<TagsSeeker />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
